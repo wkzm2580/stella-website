@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  body {
+    background: #f8f8f8;
+    color: #222;
+  }
+  
+  .hero {
+    background: url('https://via.placeholder.com/1500x800') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .btn {
+    padding: 0.75rem 2rem;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #444;
+  }
+  
+  .about, .collection {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .collection .items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .collection .item img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .footer {
+    background: #111;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
